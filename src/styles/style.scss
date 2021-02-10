@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../assets/background-image.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.page {
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+}
+
+.form-side {
+  background: #fafafa;
+  width: 65%;
+  height: 120vh;
+  float: left;
+}
+
+.info-side {
+  background: #2364ff;
+  width: 35%;
+  height: 120vh;
+  float: right;
+  color: #fafafa;
+  text-align: center;
+}
+
+.info-side h1 {
+  position: relative;
+  top: 35%;
+}
+
+.info-side p {
+  position: relative;
+  top: 43%;
+  padding-left: 8rem;
+  padding-right: 7rem;
+  text-align: left;
+}
+
+.steps {
+  float: right;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.steps p {
+  float: left;
+  font-weight: bold;
+  font-size: small;
+  letter-spacing: 0.2rem;
+  margin-right: 1rem;
+}
+
+.steps i {
+  float: right;
+}
+
+.form {
+  position: relative;
+  top: 17%;
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.form h2 {
+  margin-bottom: 2rem;
+}
+
+.form p {
+  margin-bottom: 2.5rem;
+}
+
+.form a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2364ff;
+}
+
+.form input {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border: 0.5px solid rgba(206, 206, 206, 0.57);
+  border-radius: 0.2rem;
+  background-color: #fafafa;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form select {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border: 0.5px solid rgba(206, 206, 206, 0.57);
+  background-color: #fafafa;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  white-space: normal;
+  color: #787878;
+}
+
+.form select:focus {
+  outline: none;
+}
+
+.form option {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.form button {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background: #2364ff;
+  color: #fafafa;
+  border: none;
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.form button:disabled {
+  background-color: #d2d2d2;
+}
+
+.form .alert-messages {
+  color: red;
+  padding-bottom: 1rem;
+  margin: 0;
+  font-size: small;
+}
+
+.bd {
+  border: 2px solid gold;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.scss.map */
